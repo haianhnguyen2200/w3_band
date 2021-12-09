@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -62,16 +63,19 @@
                     commodo consequat.</p>
                 <div class="row member-list">
                     <div class="s-col-full mt-32 col col-3 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img">
+                        <p class="member-name">Michael Jackson</p>
+                        <div class="member-img" style="background-image: url(./assets/img/member1.jpg);"></div>
+                        <!-- <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img"> -->
                     </div>
                     <div class="s-col-full mt-32 col col-3 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img">
+                        <p class="member-name">Alice Rock</p>
+                        <div class="member-img" style="background-image: url(./assets/img/member2.jpg);"></div>
+                        <!-- <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img"> -->
                     </div>
                     <div class="s-col-full mt-32 col col-3 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img">
+                        <p class="member-name">James Young</p>
+                        <div class="member-img" style="background-image: url(./assets/img/member3.jpg);"></div>
+                        <!-- <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-img"> -->
                     </div>
                 </div>
             </div>
@@ -89,31 +93,30 @@
 
                     <div class="row place-list">
                         <div class="col col-3 s-col-full mt-16">
-                            <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New York" class="place-img">
+                            <div class="place-img" style="background-image: url(./assets/img/newyork.jpg);"></div>
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-time">Fri 27 Nov 2021</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
                                 <button class="place-buy-btn s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-3 s-col-full mt-16">
-                            <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" class="place-img">
+                            <div class="place-img" style="background-image: url(./assets/img/paris.jpg);"></div>
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
-                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-time">Sat 28 Nov 2021</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
                                 <button class="place-buy-btn s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-3 s-col-full mt-16">
-                            <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco"
-                                class="place-img">
+                            <div class="place-img" style="background-image: url(./assets/img/sanfrancisco.jpeg);"></div>
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-time">Sun 29 Nov 2021</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
                                 <button class="place-buy-btn s-full-width">Buy Tickets</button>
@@ -176,7 +179,9 @@
     <div class="modal">
         <div class="modal-container">
             <div class="modal-close">
-                <i class="ti-close"></i>
+                <span class="modal-close-icon">
+                    <i class="ti-close"></i>
+                </span>
             </div>
             <header class="modal-header">
                 <i class="modal-header-icon ti-bag"></i>
@@ -194,7 +199,7 @@
                 </label>
                 <input type="email" id="ticket-email" class="modal-input" placeholder="Enter email ...">
                 <button id="buy-tickets">
-                    Pay <i class="ti-check"></i>
+                    Pay <i class="buy-tickets-icon ti-check"></i>
                 </button>
             </div>
             <footer class="modal-footer">
