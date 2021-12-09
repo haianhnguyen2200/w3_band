@@ -376,6 +376,8 @@ html {
   border: 1px solid #ccc;
   float: right;
   padding: 10px 16px;
+  appearance: none;
+  --webkit-animation: none;
 }
 
 .contact-form .form-submit:hover {
